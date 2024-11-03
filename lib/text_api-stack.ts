@@ -40,9 +40,9 @@ export class TextApiStack extends cdk.Stack {
 
     const textResource = api.root.addResource('text');
 
-    const summaryIntegration = new LambdaIntegration(summaryLambda);
+    const summaryLambdaIntegration = new LambdaIntegration(summaryLambda);
 
-    textResource.addMethod('POST', summaryIntegration);
+    textResource.addMethod('POST', summaryLambdaIntegration);
 
     // output the URL of the API Gateway REST API
     new cdk.CfnOutput(this, 'TextApiUrl', {
