@@ -1,0 +1,9 @@
+@url = https://0ep3u969vk.execute-api.us-east-1.amazonaws.com/prod
+
+###
+POST {{url}}/text?points=3
+Content-Type: application/json
+
+{
+  "text": "Cloud computing revolutionizes how we access and utilize technology. It offers scalable, flexible, and cost-effective solutions by delivering computing resources over the internet. This eliminates the need for on-premise hardware and software, simplifying IT management. Cloud computing offers various consumption models: Infrastructure as a Service (IaaS) provides fundamental computing resources like servers, storage, and networking; Platform as a Service (PaaS) offers a platform for developing and deploying applications without managing infrastructure; and Software as a Service (SaaS) delivers software applications directly over the internet. Three leading cloud providers dominate the market: Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. Each offers a comprehensive suite of services, catering to diverse needs. AWS, the pioneer, boasts a vast array of services and a strong global presence. GCP, backed by Google's technological prowess, provides innovative solutions and advanced AI capabilities. Azure, leveraging Microsoft's enterprise expertise, offers seamless integration with Microsoft products and a robust security framework."
+}
