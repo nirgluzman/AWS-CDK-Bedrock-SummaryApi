@@ -59,7 +59,7 @@ function getTitanConfig(text: string, points: string) {
     textGenerationConfig: {
       maxTokenCount: 4096,
       stopSequences: [],
-      temperature: 0,
+      temperature: 0.5,
       topP: 1,
     },
   };
